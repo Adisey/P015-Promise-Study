@@ -51,7 +51,7 @@ applayForViva({})
 function hotel(num) {
     return new Promise(function (resolve, reject) {
         let chekTime = 3000; //ms
-        let tooLong = 200; // ms
+        let tooLong = 2000; // ms
         let delay = Math.ceil(Math.random() * chekTime);
         console.log(`Hotel - №`, num, delay);
         setTimeout(() => {
