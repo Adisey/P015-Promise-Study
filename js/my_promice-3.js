@@ -33,3 +33,7 @@ applayForViva({})
     .catch(error => console.error(error))
     .then(() => console.info(`Процедура завершена`));
 
+
+
+
+
