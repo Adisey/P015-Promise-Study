@@ -9,7 +9,6 @@ function go(num) {
                 resolve(num);
         }, delay);
     });
-
 }
 
 let p1 = go(1);
